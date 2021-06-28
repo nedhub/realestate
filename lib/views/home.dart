@@ -229,6 +229,34 @@ class _bodyState extends State<body> {
                   image: AssetImage("assets/images/slider4.jpeg"),
                 ),
               ),
+            ),
+            Text(
+              "Mexico City",
+              style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+            ),
+            SizedBox(height: 20),
+            Container(
+              width: 900,
+              height: 150,
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  image: AssetImage("assets/images/slider5.jpeg"),
+                ),
+              ),
+            ),
+            Text(
+              "Istanbul",
+              style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+            ),
+            SizedBox(height: 20),
+            Container(
+              width: 900,
+              height: 150,
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  image: AssetImage("assets/images/slider6.jpeg"),
+                ),
+              ),
             )
           ],
         )
