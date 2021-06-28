@@ -11,6 +11,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xFFC3E0E5),
       body: body(),
     );
   }
