@@ -170,20 +170,37 @@ class _bodyState extends State<body> {
           ]),
         ),
         SizedBox(height: 40),
-        Row(
+        Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             Text(
               "Los Angeles",
               style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
             ),
-            SizedBox(height: 40),
-            // Container(
-            //     width: double.infinity,
-            //     height: 150,
-            //     decoration: BoxDecoration(
-            //         image: DecorationImage(
-            //             image: AssetImage("assets/images/slider.jpeg"))))
+            SizedBox(height: 20),
+            Container(
+              width: 450,
+              height: 150,
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  image: AssetImage("assets/images/slider.jpeg"),
+                ),
+              ),
+            ),
+            Text(
+              "Dallas",
+              style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+            ),
+            SizedBox(height: 20),
+            Container(
+              width: 900,
+              height: 150,
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  image: AssetImage("assets/images/slider2.jpeg"),
+                ),
+              ),
+            )
           ],
         )
       ]),
