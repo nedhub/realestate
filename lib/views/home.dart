@@ -201,6 +201,34 @@ class _bodyState extends State<body> {
                   image: AssetImage("assets/images/slider2.jpeg"),
                 ),
               ),
+            ),
+            Text(
+              "New York",
+              style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+            ),
+            SizedBox(height: 20),
+            Container(
+              width: 900,
+              height: 150,
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  image: AssetImage("assets/images/slider3.jpeg"),
+                ),
+              ),
+            ),
+            Text(
+              "Toronto",
+              style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+            ),
+            SizedBox(height: 20),
+            Container(
+              width: 900,
+              height: 150,
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  image: AssetImage("assets/images/slider4.jpeg"),
+                ),
+              ),
             )
           ],
         )
